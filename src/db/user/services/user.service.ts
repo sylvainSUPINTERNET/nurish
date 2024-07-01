@@ -11,7 +11,7 @@ export class UserService {
 
     async create(createCatDto: IUserCreateDto): Promise<User> {
         const createdCat = new this.userModel(createCatDto);
-        console.log(createdCat);
+        console.log("test",createdCat);
         return createdCat.save();
     }
 
