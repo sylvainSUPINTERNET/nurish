@@ -9,7 +9,38 @@ export class Meal {
   @Prop()
   name: string;
 
-  // TODO
+  @Prop()
+  nutriscore: string;
+
+  @Prop()
+  ecoreScore: string;
+
+  @Prop()
+  calories: number;
+
+  @Prop()
+  extraSpec: string;
+
+  @Prop()
+  description: string;
+
+  @Prop()
+  topings: string[];
+
+  @Prop()
+  allergens: string[];
+
+  @Prop()
+  weight: number;
+
+  @Prop()
+  macroNutrients: string[];
+
+  @Prop()
+  microNutrients: string[];
+
+  @Prop()
+  preparation: string[];
 }
 
 export const MealSchema = SchemaFactory.createForClass(Meal);
