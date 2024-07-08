@@ -41,6 +41,9 @@ export class Meal {
 
   @Prop()
   preparation: string[];
+
+  @Prop()
+  pictureUrl: string;
 }
 
 export const MealSchema = SchemaFactory.createForClass(Meal);

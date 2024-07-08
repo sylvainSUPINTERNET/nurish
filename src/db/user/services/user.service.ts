@@ -13,6 +13,5 @@ export class UserService {
         const user = new this.userModel(createCatDto);
         return user.save();
     }
-
     
 }

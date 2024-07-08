@@ -11,4 +11,5 @@ export interface IMealCreateDto {
     macroNutrients: string[];
     microNutrients: string[];
     preparation: string[];
+    pictureUrl: string;
 }
